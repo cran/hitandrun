@@ -1,12 +1,12 @@
-29b3032b9dd34e8b4933db2beddb7246 *DESCRIPTION
-f4ad02235c71dc004c92e21da5101acb *NAMESPACE
-e137175941a7bfa49d9de2fb5cee5106 *R/bound.R
-dd501afd091d128a0cbcae85123380c5 *R/constraint.R
-b678be8d52baa6cbf37b29aeff1b293a *R/sample.R
-ddb1d6051e395a12fb678fbc28a74e7b *R/transformSimplex.R
+9a6fa1a480c9da65b0d7eddb0d7bd74d *DESCRIPTION
+970c770a3da58aabaca3048195ea937a *NAMESPACE
+ef584d315266d6562dd8968c75289e79 *R/bound.R
+2b5bdc7d7d400490cde22f0f8ef402fc *R/constraint.R
+0f6bc248e396c4af78f6a6c6c3797215 *R/sample.R
+79530ca88241ae9e1e77ea102c714044 *R/transformSimplex.R
 a2f1ff7d5f1dfae272a3729894bf13d1 *man/bbReject.Rd
 f0bcf30449e7cbe15d9dc440af9b4cdc *man/createBoundBox.Rd
-69de3e44f38de033d1cb1310cd18771e *man/createSeedPoint.Rd
+191f1f2777913dc98989affd24c6730c *man/createSeedPoint.Rd
 71e1bf5ee880c3f022eeb4b034574b57 *man/findExtremePoints.Rd
 7e36df0f88cf8eee5d18291213d86e8f *man/findVertices.Rd
 6513d0c83e3cc19b7235bdbe4601d392 *man/har-constraint.Rd
@@ -23,6 +23,6 @@ b581fabfc4ae4d3cf4935e023dd6e08f *src/har.h
 376dcfceea90d1fd9550dca9008c9e49 *src/hit.c
 923db23cb5f960a75524076e96f13939 *src/randDir.c
 cc2e1ec82124033e9a7da4c1adb12b69 *src/simplexSample.c
-08ff8beba2fd0011c3b124a9eb141228 *tests/seedPoint.R
+fd3bc7951b0d2c1302aa8c5425daf81f *tests/seedPoint.R
 4f136f1791ffb872722b19d570011b72 *tests/simplex3d.R
 6ebab6e1dbcadb083d08a8d2fd9ac9b9 *tests/transformRegular.R
