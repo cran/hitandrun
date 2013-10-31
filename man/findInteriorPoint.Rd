@@ -1,13 +1,13 @@
-\name{findVertices}
-\alias{findVertices}
+\name{findInteriorPoint}
+\alias{findInteriorPoint}
 \title{
-Find vertices of the polytope 
+Find an interior point
 }
 \description{
-Find the vertices of a polytope given by a set of linear constraints.
+Find an interior point of a polytope given by a set of linear constraints along each dimension.
 }
 \usage{
-findVertices(constr, homogeneous=FALSE)
+findInteriorPoint(constr, homogeneous=FALSE)
 }
 \arguments{
 	\item{constr}{Constraint definition}
@@ -16,10 +16,10 @@ findVertices(constr, homogeneous=FALSE)
 \details{
 See \code{\link{har}} for a description of the constraint definition and the homogeneous coordinate representation.
 
-Uses the Avis-Fukuda pivoting algorithm to enumerate the vertices of the polytope.
+Solves a slack-maximizing LP to find an interior point of the polytope defined by the given constraints.
 }
 \value{
-A matrix, in which each row is a vertex of the polytope.
+A vector.
 }
 \author{
 Gert van Valkenhoef
@@ -31,9 +31,9 @@ Gert van Valkenhoef
 \code{\link{har}}
 
 \code{\link{findExtremePoints}}
-\code{\link{findInteriorPoint}}
+\code{\link{findVertices}}
 
-\code{\link[rcdd]{scdd}}
+\code{\link[rcdd]{lpcdd}}
 }
 \examples{
 # constraints: x_1 >= 0, x_2 >= 0, x_1 + x_2 <= 1
@@ -42,7 +42,7 @@ b <- c(0, 0, 1)
 d <- c("<=", "<=", "<=")
 constr <- list(constr=A, rhs=b, dir=d)
 
-findVertices(constr, homogeneous=FALSE)
+findInteriorPoint(constr, homogeneous=FALSE)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

@@ -29,8 +29,9 @@ A list, containing:
 Gert van Valkenhoef
 }
 \seealso{
-\code{\link{harConstraints}}
 \code{\link{createBoundBox}}
+
+\code{\link{harConstraints}}
 \code{\link{simplex.createTransform}}
 \code{\link{simplex.createConstraints}}
 }
@@ -60,6 +61,5 @@ stopifnot(samples[,1] + samples[,2] <= 1)
 \dontrun{plot(samples)}
 
 }
-\keyword{rejection}
-\keyword{uniform}
-\keyword{sampling}
+\keyword{bounding box}
+\keyword{uniform sampling}
