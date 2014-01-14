@@ -1,9 +1,9 @@
-b5074d6e87669124927750f0a2de61ba *DESCRIPTION
+42df4be021cb0c9a1b7773da987ed03d *DESCRIPTION
 11995e4360c382ab38eeb4852b168a6c *NAMESPACE
 f20b9d90f8aa133454a128a42e64ab00 *NEWS
-5d53c8724c26b0b9c2e3d56cbf8e335e *R/bound.R
+a8f695f3d8aa3af9d93323c2b6b499e7 *R/bound.R
 1c094484e00afc778a7bd2a7907aed8c *R/constraint.R
-3f973e16f05412075b600b6300dba97f *R/hitandrun.R
+2e251cd79194986e24669adb4f7060b7 *R/hitandrun.R
 4a150f8b02f62e01a572ffc96dec3398 *R/sample.R
 adc92e20cf16f6b80bdb54ce8c707c4d *R/transformSimplex.R
 1b28950bd84b7b7b28acbf825b1f62f7 *man/bbReject.Rd
@@ -31,6 +31,7 @@ b7034a8bd021d5daa4ee8de4b32fd5d3 *src/har.c
 3970b1f0e791dea5a84131956cc8d480 *src/hit.c
 4d6b82180e2b34d8eb57a92349826b65 *src/randDir.c
 5eded35a102faa0bb3e6d483c085989a *src/simplexSample.c
+3b97152455986cf448e7f7b0cd010050 *tests/crash.R
 eb1e7cd3c5c94cd0ecaaf460b5e8e074 *tests/seedPoint.R
 4f136f1791ffb872722b19d570011b72 *tests/simplex3d.R
 c6720b735b6f9bbfa634fe6e87bdd9f0 *tests/solution.basis.R
