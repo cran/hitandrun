@@ -1,7 +1,7 @@
-892bde248ea6cd40ed56287f1e5772c5 *DESCRIPTION
+92194922a5f43171b1384ac8bea736de *DESCRIPTION
 6d4b15e21f554cbd9cad6e9b857997e6 *NAMESPACE
-61690ca7f8912b238cd7e0e926842590 *NEWS
-ed3460a90bf6a09b8806dd706e6f330f *R/bound.R
+3fd178d98076c0136499ae58ad9478e0 *NEWS
+fdf74ac9a4702da2819ea58e9fde1968 *R/bound.R
 8d9514f06d293509bd677621018a0d77 *R/constraint.R
 655d268941ba980d72d67cb045cda44e *R/hitandrun.R
 5bf640a9658a8fddba3c57a8a7ba9375 *R/sample.R
@@ -39,7 +39,7 @@ bdab994cd3756d6d87589e461e17ddeb *src/hitandrun-win.def
 783cdd2d2d5f520c0f7c0007b9ac1946 *src/init.c
 c8de4f4e8d0a8b12cae94cbf6bded9af *src/intersect.c
 50325ffce7e3e3d01cbfb430077f7aa2 *src/randDir.c
-5cc61132f3d41d64bb674c07b470c725 *src/rsabDir.c
+440a2dd10199a1d6d09b516cd097206d *src/rsabDir.c
 d988c996ed8176c2a370799c997d449f *src/sab.c
 c802350f4c95c50f83a9382317020e5b *src/simplexSample.c
 16ca503a69b6b7816849252fc568c68d *tests/test.R
