@@ -33,7 +33,7 @@ A list, containing:
 	\item{xN}{The last generated sample, untransformed. Can be used as the starting point for a continuation of the chain.}
 }
 \references{
-	Smith, R. L. (1984) "Efficient Monte Carlo Procedures for Generating Points Uniformly Distributed over Bounded Regions". \emph{Operations Research} 32(6): 1296-1308. \href{https://doi.org/10.1287/opre.32.6.1296}{doi:10.1287/opre.32.6.1296}
+	Smith, R. L. (1984) "Efficient Monte Carlo Procedures for Generating Points Uniformly Distributed over Bounded Regions". \emph{Operations Research} 32(6): 1296-1308. \doi{10.1287/opre.32.6.1296}
 }
 \author{
 Gert van Valkenhoef
@@ -67,7 +67,7 @@ stopifnot(samples >= 0)
 # Check that x_1 + x_2 <= 1
 stopifnot(samples[,1] + samples[,2] <= 1)
 
-\dontrun{plot(samples)}
+\donttest{plot(samples)}
 
 }
 \keyword{hit-and-run}
